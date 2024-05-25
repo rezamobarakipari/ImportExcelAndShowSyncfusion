@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\components\\pages\\importexcel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\components\\pages\\importexcel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|c:\\users\\mobaraki\\source\\repos\\importexcelandshowsyncfusion\\importexcelandshowsyncfusion\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1877A6-B094-4D53-ABE0-82DE72D4914B}|ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion.csproj|solutionrelative:importexcelandshowsyncfusion\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Program.cs",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Program.cs",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Program.cs",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T09:11:08.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Components\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Pages\\Index.razor",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Components\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T09:09:27.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T09:08:55.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\App.razor",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\App.razor",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T09:08:49.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T09:08:45.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\_Imports.razor",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T09:04:33.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImportExcel.razor",
+              "DocumentMoniker": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Pages\\ImportExcel.razor",
+              "RelativeDocumentMoniker": "ImportExcelAndShowSyncfusion\\Components\\Pages\\ImportExcel.razor",
+              "ToolTip": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\Components\\Pages\\ImportExcel.razor",
+              "RelativeToolTip": "ImportExcelAndShowSyncfusion\\Components\\Pages\\ImportExcel.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T08:57:54.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ImportExcelAndShowSyncfusion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ImportExcelAndShowSyncfusion.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\fonts\\syncfusion\\icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\syncfusion\\icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\fonts\\syncfusion\\icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\syncfusion\\icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\fonts\\syncfusion\\icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\syncfusion\\icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\fonts\\syncfusion\\icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\syncfusion\\icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\images\\ToggleButton.png",
+      "PackagePath": "staticwebassets\\images\\ToggleButton.png"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\MOBARAKI\\source\\repos\\ImportExcelAndShowSyncfusion\\ImportExcelAndShowSyncfusion\\wwwroot\\syncfusion-blazor-icons.css",
+      "PackagePath": "staticwebassets\\syncfusion-blazor-icons.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ImportExcelAndShowSyncfusion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ImportExcelAndShowSyncfusion.props",
+      "PackagePath": "build\\ImportExcelAndShowSyncfusion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ImportExcelAndShowSyncfusion.props",
+      "PackagePath": "buildMultiTargeting\\ImportExcelAndShowSyncfusion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ImportExcelAndShowSyncfusion.props",
+      "PackagePath": "buildTransitive\\ImportExcelAndShowSyncfusion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

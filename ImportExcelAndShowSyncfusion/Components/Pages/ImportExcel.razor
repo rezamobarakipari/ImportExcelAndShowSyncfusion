@@ -1,0 +1,128 @@
+﻿@page "/importexcel"
+@rendermode InteractiveServer
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.Spinner
+@using Syncfusion.XlsIO
+@using System.Dynamic
+@using System.Data
+@inject SfDialogService Dialogs
+
+<PageTitle>DataGrid</PageTitle>
+<h2>DataGrid</h2>
+<br/>
+<div id = "ControlRegion">
+      <div class="row">
+        <div class="col-10">
+       <SfUploader AllowedExtensions=".xls, .xlsx" MinFileSize=1 MaxFileSize=104857600 >  <UploaderEvents ValueChange ="@OnChange"></UploaderEvents>
+           </SfUploader>
+        </div> 
+          
+           <div class="col-1 align-content-center">
+
+            <SfButton OnClick=ShowExcel>Show Excel File</SfButton>
+        </div>
+    </div>
+    <div class="separator border-dark my-10"></div>
+    <div class="row">
+        @if (CustomerList.Count > 0)
+        {
+           
+                <SfSpinner Size="40" Label="load Excel File ..." Type="SpinnerType.Fabric" Visible=isloading></SfSpinner>
+                <SfGrid @ref="Grid" DataSource
+                ="@CustomerList" AllowTextWrap Height="100%" EnableRtl=false Width="100%" AllowFiltering="false" AllowPaging="true" GridLines="GridLine.Both">
+                    <GridPageSettings PageSize="12" PageCount=12 PageSizes="true"></GridPageSettings>  <GridColumns>
+                        @{
+                            foreach (var val in Columns)
+                            {
+                                <GridColumn Field="@val"></GridColumn>
+                            }
+                        }
+                    </GridColumns>
+            </SfGrid>
+        }
+    </div>
+
+</div>
+<br/>
+<style>
+    .ulstyle {
+        margin: 0px;
+        padding-left: 20px;
+        display: inline-block;
+    }
+    .list {
+    float: left;
+    line-height: 20px;
+    margin: 10px;
+    min-width: 200px;
+    }
+</style>
+@code{
+    SfGrid<ExpandoObject> Grid=new SfGrid<ExpandoObject>();
+    string[] Columns;
+    public bool isloading { get; set; } = false;
+    byte[] bytes ;
+    public List<ExpandoObject> CustomerList = new List<ExpandoObject>();
+    public DataTable table = new DataTable();
+    async Task OnChange(UploadChangeEventArgs args)
+    {
+        try
+        {
+            foreach (var file in args.Files)
+            {
+                MemoryStream memoryStream = new MemoryStream();
+                var fileStream = file.File.OpenReadStream(long.MaxValue);
+                await fileStream.CopyToAsync(memoryStream);
+                bytes = memoryStream.ToArray();
+                var FileName = file.FileInfo.Name; 
+            }
+
+
+        }
+        catch (Exception ex)
+        {
+            await Dialogs.AlertAsync(ex.ToString()); 
+        }
+    }
+    public async Task ShowExcel()
+    {
+        var Stream2 = new MemoryStream(bytes.ToArray());
+        isloading = true;
+        StateHasChanged();
+        ExcelEngine excelEngine = new ExcelEngine();
+        IApplication application = excelEngine.Excel;
+        application.DefaultVersion = ExcelVersion.Excel2016;
+        IWorkbook workbook = application.Workbooks.Open(Stream2);
+        IWorksheet worksheet = workbook.Worksheets[0];
+        table = worksheet.ExportDataTable(worksheet.UsedRange, ExcelExportDataTableOptions.DefaultStyleColumnTypes);
+        GenerateListFromTable(table);
+        isloading = false;
+        StateHasChanged();
+    }
+    public void GenerateListFromTable(DataTable input)
+    {
+        var list = new List<ExpandoObject>();
+        var strtitle = new List<string>();
+
+
+        for (int i = 1; i < input.Rows.Count; i++)
+        {
+            System.Dynamic.ExpandoObject e = new System.Dynamic.ExpandoObject();
+            foreach (DataColumn col in input.Columns)
+            {
+                // get title cloumns from firstrow
+                var title = input.Rows[1].ItemArray[col.Ordinal].ToString();
+                if (i < 2) strtitle.Add(title);
+                e.TryAdd(title, input.Rows[i].ItemArray[col.Ordinal]);
+            }
+            list.Add(e);
+        }
+
+        Columns = strtitle.ToArray();
+        CustomerList = list;
+    }
+  
+}
